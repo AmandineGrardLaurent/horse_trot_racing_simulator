@@ -21,9 +21,36 @@ speed_update_table = {
 # distance parcourue en fonction de la vitesse actuelle
 distance_by_speed = { 0:0 , 1:23, 2:46, 3:69, 4:92, 5:115, 6:138 }
 
+MAX_HORSES = 20
+MIN_HORSES = 12
+TYPE_VALUES = ["tiercé", "quarté", "quinté"]
 
+def get_nb_horses():
+    valid_nb = False
+    nb = None
+    print(f"Combien de chevaux pour cette course : ")
+    while not valid_nb:
+        nb_horses = input().strip()
+        if nb_horses.isdigit():
+            nb = int(nb_horses)
+            valid_nb = (MIN_HORSES <= nb <= MAX_HORSES)
+            if not valid_nb:
+                print(f"Choisissez un nombre entre {MIN_HORSES} et {MAX_HORSES}")
+        else:
+            print("Merci de saisir un nombre.")
+    return nb
 
+def get_type_racing():
+    valid_input = ""
+    print(f"Jouez-vous pour un tiercé, un quarté ou un quinté ? ")
+    while valid_input not in TYPE_VALUES:
+        print("Choisissez entre tiercé, quarté et quinté")
+        valid_input = input().strip()
+    return valid_input
 
+    return input_user
 
 if __name__ == '__main__':
-    print()
+    nb_horses = get_nb_horses()
+    type_racing = get_type_racing()
+    print(f"Le {type_racing} est lancé : {nb_horses} chevaux en lice !")
