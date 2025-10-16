@@ -29,7 +29,7 @@ distance_by_speed = { 0:0 , 1:23, 2:46, 3:69, 4:92, 5:115, 6:138 }
 type_values = {"tiercé" : 3 , "quarté" : 4, "quinté" : 5}
 
 MAX_HORSES = 20
-MIN_HORSES = 6
+MIN_HORSES = 12
 FINAL_DISTANCE = 2400
 TIME_ONE_TURN = 10
 

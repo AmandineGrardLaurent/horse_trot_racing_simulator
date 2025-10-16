@@ -11,7 +11,7 @@ Ce programme simule une course de trot attelé entre plusieurs chevaux. Chaque c
 ### 1. Choix du nombre de chevaux
 
 L'utilisateur est invité à choisir le nombre de chevaux participant à la course.  
-Le nombre doit être compris entre 6 et 20.
+Le nombre doit être compris entre 12 et 20.
 
 ### 2. Choix du type de course
 
@@ -123,10 +123,10 @@ distance_by_speed = {
 
 ```plaintext
 Combien de chevaux pour cette course : 
-8
+12
 Jouez-vous pour un tiercé, un quarté ou un quinté ? 
 tiercé
-Le tiercé est lancé : 8 chevaux en lice !
+Le tiercé est lancé : 12 chevaux en lice !
 Tour n°1 ----------------------------------------------------------------------
 Jet du dé du cheval n°1: 4
 Cheval  1 - Vitesse actuelle: 1 - Distance parcourue: 23 m - Temps écoulé: 10 s
