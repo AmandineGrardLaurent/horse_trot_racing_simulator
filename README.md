@@ -131,7 +131,9 @@ Tour n°1 ----------------------------------------------------------------------
 Jet du dé du cheval n°1: 4
 Cheval  1 - Vitesse actuelle: 1 - Distance parcourue: 23 m - Temps écoulé: 10 s
 ...
-Cheval  1 | > 23m
+Cheval  1 || > 46m
+Cheval  2 ||| > 69m
+Cheval  3 |||||| > 138m
 ...
 Tour suivant ? (oui/non)
 ```
